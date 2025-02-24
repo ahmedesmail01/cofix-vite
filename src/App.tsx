@@ -19,7 +19,7 @@ function App() {
   return (
     <main className="flex w-full relative overflow-hidden flex-col gap-10 lg:gap-[140px] row-start-2 items-center ">
       <div className="blue_circle hidden lg:block absolute top-[800px] -left-[300px] -z-10" />
-      <div className="blue_circle hidden lg:block absolute top-[1500px] -right-[300px] -z-10" />
+      <div className="blue_circle hidden lg:block absolute top-[1800px] -right-[300px] -z-10" />
       <div className="blue_circle hidden lg:block absolute top-[3000px] -left-[300px] -z-10" />
       <NavBar />
       <Routes>

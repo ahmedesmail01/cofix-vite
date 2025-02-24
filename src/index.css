@@ -69,6 +69,26 @@ button:focus-visible {
     }
   } */
 
+@font-face {
+  font-family: "PNU";
+  src: url("/src/assets/fonts/ArbFONTS-PNU-Regular.ttf") format("ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cabin Condensed";
+  src: url("/src/assets/fonts/CabinCondensed-SemiBold.ttf") format("ttf");
+  font-style: normal;
+}
+
+html[dir="rtl"] {
+  font-family: "PNU", sans-serif;
+}
+
+html[dir="ltr"] {
+  font-family: "Cabin Condensed", sans-serif;
+}
+
 .blue_circle {
   width: 1000px;
   height: 1000px;

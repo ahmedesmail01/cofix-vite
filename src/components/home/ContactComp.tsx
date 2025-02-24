@@ -31,6 +31,7 @@ export default function ContactComp() {
     register,
     handleSubmit,
     formState: { errors, isSubmitting },
+    reset,
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
   });
@@ -52,6 +53,8 @@ export default function ContactComp() {
         text: "success!",
         icon: "success",
       });
+
+      reset();
     } catch (error) {
       console.error("Error submitting form:", error);
       Swal.fire({

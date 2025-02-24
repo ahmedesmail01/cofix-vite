@@ -26,7 +26,7 @@ const Contacts = () => {
 
   const basedIn = [t("Contacts.basedIn.0"), t("Contacts.basedIn.1")];
   return (
-    <section className="relative bg-gray-50 w-full py-16">
+    <section className="relative  w-full py-16">
       <div className="container mx-auto px-4 lg:px-[120px]">
         <div className="grid grid-cols-1 w-full gap-8">
           {/* Contact Information */}
