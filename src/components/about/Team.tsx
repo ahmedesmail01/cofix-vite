@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import team1 from "/public/images/team1.svg";
 import team2 from "/public/images/team2.svg";

@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import constructionIcon from "/public/images/Construction.svg";
 import pharmaceuticalsIcon from "/public/images/Pharmaceuticals.svg";
