@@ -20,7 +20,7 @@ const Hero = () => {
         className="absolute lg:w-[180px] w-[120px] top-[40%] lg:top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2"
       />
       <div>
-        <h1 className="text-center text-[#0f519c] text-xl lg:text-[56px] font-semibold font-cabin leading-[68px]">
+        <h1 className="text-center  text-[#0f519c] text-xl lg:text-[56px] font-semibold font-cabin leading-[68px]">
           {t("Hero.mainTitle")}
         </h1>
         <p className="text-center text-[#5e5959] text-base lg:text-2xl font-normal my-4 font-['Cabin Condensed']">

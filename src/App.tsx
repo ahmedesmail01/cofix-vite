@@ -14,6 +14,7 @@ function App() {
 
   useEffect(() => {
     document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
+    document.documentElement.lang = i18n.language;
   }, [i18n.language]);
 
   return (

@@ -71,14 +71,18 @@ button:focus-visible {
 
 @font-face {
   font-family: "PNU";
-  src: url("/src/assets/fonts/ArbFONTS-PNU-Regular.ttf") format("ttf");
+  src: url("./assets/fonts/ArbFONTS-PNU-Regular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Cabin Condensed";
-  src: url("/src/assets/fonts/CabinCondensed-SemiBold.ttf") format("ttf");
+  src: url("./assets/fonts/CabinCondensed-SemiBold.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 html[dir="rtl"] {
